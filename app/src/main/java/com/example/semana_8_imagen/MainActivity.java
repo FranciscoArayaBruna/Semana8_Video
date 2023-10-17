@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 new Thread(new Runnable() {
                     @Override
                     public void run() {
+
                         final Bitmap bitmap = loadImageFromNetwork("https://th.bing.com/th/id/R.e57fc3f7e366f7d99fb8a530d3df4a64?rik=7HIE1eHlgPVZvQ&riu=http%3a%2f%2ftechcyton.com%2fwp-content%2fuploads%2f2016%2f06%2fGTA-6-Grand-Theft-Auto.jpg&ehk=IOqQu0UjjqPtqx5jeBwRrKgecx4%2fL7ErfDjMH1XuLzs%3d&risl=&pid=ImgRaw&r=0.jpg");
                         imagen.post(new Runnable() {
                             @Override
